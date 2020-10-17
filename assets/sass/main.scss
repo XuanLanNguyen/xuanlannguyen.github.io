@@ -306,6 +306,52 @@ $size-header-pad: 4em;
 		}
 	}
 
+	/* Progress bar */
+	.progress-bar-wrapper {
+		position: relative;
+		height: 10px;
+		border: 1px solid rgb(162,162,162);
+		transform: translateY(100%);
+	}
+	.progress-bar-inner {
+		background: rgb(162,162,162);
+		position: absolute;
+		left: 0;
+		top: 0;
+		height: 8px;
+	}
+	.progress-bar-inner-1 {
+		width: 10%;
+	}
+	.progress-bar-inner-2 {
+		width: 20%;
+	}
+	.progress-bar-inner-3 {
+		width: 30%;
+	}
+	.progress-bar-inner-4 {
+		width: 40%;
+	}
+	.progress-bar-inner-5 {
+		width: 50%;
+	}
+	.progress-bar-inner-6 {
+		width: 60%;
+	}
+	.progress-bar-inner-7 {
+		width: 70%;
+	}
+	.progress-bar-inner-8 {
+		width: 80%;
+	}
+	.progress-bar-inner-9 {
+		width: 90%;
+	}
+	.progress-bar-inner-10 {
+		width: 100%;
+	}
+
+
 /* Row */
 
 	.row {
