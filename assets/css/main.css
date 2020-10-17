@@ -2846,6 +2846,16 @@ input, select, textarea {
 
 			.poptrox-popup .nav-next:before,
 			.poptrox-popup .nav-previous:before {
+				color: #fff;
+				position: absolute;
+				font-size: 2em;
+				height: 1em;
+				line-height: 1em;
+				margin-top: -0.75em;
+				position: absolute;
+				text-align: center;
+				top: 50%;
+				width: 1em;
 				-moz-osx-font-smoothing: grayscale;
 				-webkit-font-smoothing: antialiased;
 				display: inline-block;
@@ -2856,19 +2866,8 @@ input, select, textarea {
 				text-transform: none !important;
 				font-family: 'Font Awesome 5 Free';
 				font-weight: 900;
-			}
-
-			.poptrox-popup .nav-next:before,
-			.poptrox-popup .nav-previous:before {
-				color: #fff;
-				font-size: 2.5em;
-				height: 1em;
-				line-height: 1em;
-				margin-top: -0.75em;
-				position: absolute;
-				text-align: center;
-				top: 50%;
-				width: 1.5em;
+				background: #000;
+				border-radius: 50%;
 			}
 
 		.poptrox-popup .nav-next {
@@ -2877,7 +2876,7 @@ input, select, textarea {
 
 			.poptrox-popup .nav-next:before {
 				content: '\f105';
-				right: 0;
+				right: 10px;
 			}
 
 		.poptrox-popup .nav-previous {
@@ -2886,7 +2885,7 @@ input, select, textarea {
 
 			.poptrox-popup .nav-previous:before {
 				content: '\f104';
-				left: 0;
+				left: 10px;
 			}
 
 		.poptrox-popup .closer {
@@ -2897,14 +2896,14 @@ input, select, textarea {
 			transition: opacity 0.2s ease-in-out;
 			-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
 			color: #fff;
-			height: 4em;
+			height: 3em;
 			line-height: 4em;
 			opacity: 0;
 			position: absolute;
 			right: 0;
 			text-align: center;
 			top: 0;
-			width: 4em;
+			width: 3em;
 			z-index: 2;
 		}
 
@@ -2919,18 +2918,14 @@ input, select, textarea {
 				text-transform: none !important;
 				font-family: 'Font Awesome 5 Free';
 				font-weight: 900;
-			}
-
-			.poptrox-popup .closer:before {
 				-moz-box-sizing: content-box;
 				-webkit-box-sizing: content-box;
 				-ms-box-sizing: content-box;
 				box-sizing: content-box;
 				border-radius: 100%;
-				border: solid 3px rgba(255, 255, 255, 0.5);
 				content: '\f00d';
 				display: block;
-				font-size: 1em;
+				font-size: 1.1em;
 				height: 1.75em;
 				left: 50%;
 				line-height: 1.75em;
@@ -2938,6 +2933,7 @@ input, select, textarea {
 				position: absolute;
 				top: 50%;
 				width: 1.75em;
+				background: #000;
 			}
 
 		.poptrox-popup:hover .nav-next,
